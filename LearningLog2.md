@@ -18,5 +18,5 @@ As well of this the website contains circuit diagrams and code snippets for key 
 ## Planned changes to goals
 At the end of this week I am slightly behind where I wanted to be with regards to the complexity of circuits I was creating.
 This is partly due to spending a lot more completing a tutorial C++ and partly due to not having a stepper motor or radio transmitter / receiver needed to make some circuits crucial for week 4
-Because of this, I am going to scale back my original plans and use next two weeks to create a working radio transmitter / reciever program rather than contributing to an online project.
+Because of this, I am going to scale back my original plans and use next two weeks to create a working radio transmitter / receiver program rather than contributing to an online project.
 It will be very useful to go into the last two weeks with an understanding on all of the components needed for the project, not just for planning my contribution but also for the rest of the team.
