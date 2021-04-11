@@ -15,10 +15,10 @@ The more complex a single project becomes the more likely it is for the code to 
 as any potential problem in a circuit could be with the wiring, components or the code itself. In addition to this, the arduino IDE has no dedicated debugging tools other than error messages when compiling.
 To try and improve this I have installed the vscode addon VisualMicro so I can write sketches within vscode and take advantage of it's built in debugging tools.
 
-My research indicated that the RF transmitter with the range needed for an RC plane would require an external power source to run. Also, most DIY plane's are built using a smaller, lighter version of the arduino
-rather than the arduino UNO I have been using so far.
+Most DIY plane's are built using a smaller, lighter version of the arduino rather than the arduino UNO I have been using so far to reduce the pverall weight of the plane. 
+As both circuit boards have identical laouts with the same number of pins. Any program made for one board should also be able to run on the other board.
 
 ## Planned changes to goals
-Over the next two weeks, I plan to write and test the code to needed to control the components within a plane and the components that are needed in the plane's remote controller.
-As well as these two programs, I will use the resources found in my research to create a circuit diagram indicating how the components should be assembled as well as creating a document
-documenting the functions and variables used in both programs.
+Over the next two weeks, I plan to write and test the program responsible for the flight controller on the plane. This program will take the wireless signal as an input and convert them into the relevant control signals sent to the motor and servos.
+As well as this I will use the resources found in my research to create a circuit diagram indicating how the components should be assembled. The variables and functions
+will be ddescribed in an external document as well. 
