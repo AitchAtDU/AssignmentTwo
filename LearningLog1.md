@@ -3,35 +3,25 @@
 
 ## What skill am I learning?
 Over the next few months I am planning to learn how to:
- - Create basic control programs written in C++
- - Upload and run these programs on an arduino microcontroller
- - Construct circuits using basic components that programs can control
-
-### Why am I learning it?
-I would love to understand the type of programming that goes into making everyday electronics and learning to program an arduino seems like a simple way
-of starting off. In addition to this, programming in C++ is a useful skill on its own which learning can improve my ability to program in other C based languages like javascript.
-The main reason I have chosen to learn these skills is to build an RC plane using off the shelf components in collaboration with my brother.
-For this project, I will create the circuits and programs needed to control the hardware of the plane that can then be implemented into the final prototype.
-To do this, I will need to know how to control servos and a motor using a microcontroller and how to wire a radio reciever to the board that can be used to interpret the signal from an external transmitter.
-
-### Prior knowledge
-While I have never programmed in C++, I already know how to program in JS which share many similarities. I will have to learn how an arduino uses C++ to control a circuit.
-Aside from a basic introduction to circuitry in in GCSE physics I have never studied electronics so I will also need to learn how to design and follow circuit diagrams in addition to learning the limitations of which circuits an arduino can control.
+- Write and develop programs in C++ using the Aruino IDE. Learn how an Arduino executes code and how to utulise the built in functions. 
+- Deeign and construct circuits comprised of wires, a breadboard and a variety of basic components. Learn the hardware limitations of what circuits an Arduino can control.
+- Upload and run these programs on an Arduino. Learn how to test the functionality of the circuits, what it takes to debug them and experiment how changes to the code impact the physical circuit.
 
 ## Initial Goals
 What I aim to accomplish on a fortnightly basis
 1. Learn to use the arduino IDE. Become familiar with the methods/functions used to program an arduino, learn about the hardware on the arduino
-1. Create more complex circuits involving motors and other components (variety of input, outputs). Start researching the components needed for the final collaborative project
-1. Find and contribute to a beginner friendly open source arduino project. Continue developing the skilles introduced in week 2
-1. Work with brother to construct an RC plane using the skills leaned over the whole assignment
+2. Create more complex circuits involving motors and other components (variety of input, outputs). Start researching the what skills and components will be needed for the final project
+3. Find and contribute to a beginner friendly open source arduino project. Continue developing the skills introduced in week 2
+4. Design and create the flight controller to an arduino controlled RC plane for a collaborative project
 
 ## What have I done this week?
-| Resource Used | Time Spent (hrs) | Explanation | Link |
+| Task | Time Spent (hrs) | Explanation | Link to resources |
 | --- | --- | --- | --- |
-| 4×4 Matrix Keyboard with Arduino | ~4 | Followed the instructions outlined in the article and adapted them so the inbuilt light would blink the a number of times equal to which button was pressed | [Here](https://rydepier.wordpress.com/2015/10/20/4x4-matrix-keyboard-with-arduino/) |
-| Arduino Built in Examples | ~6 | Completed the majority of the first 3 groups of examples. | [Here](https://www.arduino.cc/en/Tutorial/BuiltInExamples) |
+| 4×4 Matrix Keyboard circuit | ~4 | Followed the instructions outlined in the article and adapted them so the the button pressed would determine how many times the inbuilt LED blinked | [Here](https://rydepier.wordpress.com/2015/10/20/4x4-matrix-keyboard-with-arduino/) |
+| Arduino Built in Examples | ~6 | Created circuits for the first three sections in the set of official examples | [Here](https://www.arduino.cc/en/Tutorial/BuiltInExamples) |
 
-*Embedded pic of circuit*
+![Circuit](CircuitImage.jpg)
+*RGB test example*
 
 ## Planned changes to Goals
-From adapting some of the examples I found that my knowledge of C++ was holding me back from doing some of the things I wanted to like creating a function that maps a gradient of colours to the RGB led. To fix this over the next two weeks I am going to complete a intermediate tutorial course on C++
+From adapting some of the examples I found that my knowledge of C++ was holding me back from adding extra functionality to the circuits such as creating a function that maps a gradient of colours to the RGB led. Over the next two weeks I am going to complete a intermediate tutorial course on C++ to remedy this.
