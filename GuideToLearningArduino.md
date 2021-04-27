@@ -5,10 +5,10 @@ __Starting off with Arduino programming__ *by Z0161166*
 ## Introduction
 Arduino is an open-source electronics programming platform for creating custom circuits.
 Simply put, the platform is made up of two parts:
-1) A physical programmable circuit board that directly interfaces directly with the circuit.
-2) A piece of code developed on a conventional computer to control the circuit which is compiled and uploaded to the board.
+1) A physical programmable circuit board that directly interfaces with the circuit.
+2) A piece of code developed on a conventional computer which is compiled and uploaded to the board.
 
-The hardware and the software come together to create a system where circuits can be contolled by a single program running on a single circuit board. No hardware other than a USB cable is needed to reporgam the circuit board. This combined with standard open-source form factor of the circuit boards makes the barrier of entry for learning open to almost anyone. This guide is for anyone who is intrigued by making their own circuits and would like advice on how to begin their journey with Arduino.
+The hardware and the software comes together to create a system where circuits can be contolled by a single program running on a single circuit board. No hardware other than a USB cable is needed to reporgam the circuit board. This combined with standard open-source form factor of the circuit boards makes the barrier of entry for learning open to almost anyone. This guide is for anyone who is intrigued by the idea of making their own circuits and would like advice on how to begin their journey with Arduino.
 
 ## What prior knowledge do you need?
 Programs for an Arduino are referred to as sketches and are written in C++. Some knowledge on the basic principles of programming are needed before starting like variables, conditionals and loops. While it is not essential, being familiar with the basic syntax used in C languages will be very useful when it comes to writing sketches. The following [codeacademy tutorial](https://www.codecademy.com/learn/learn-c-plus-plus) is a great way to become more acquainted with C++.
@@ -16,7 +16,7 @@ Programs for an Arduino are referred to as sketches and are written in C++. Some
 If you haven't had any experience with building circuits don't worry! Almost all online project tutorials come with circuit diagrams that are straight forward to follow regardless of your prior knowledge. For an initial guide on how to create circuits using a breadboard, I recommend reading through [this article](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all).
 
 ## Why learn Arduino Programming?
-Have you ever wondered how your phone communicates with a card reader when you use contactless payments? What about how the LED display works on a calculator? If you've ever been curious about how every day electronics work then there's no easier way of getting hands on experience. While you could always learn by reading through online articles or forums, physically experimenting with the technology can be both more engaging and enriching.
+Have you ever wondered how your phone communicates with a card reader when pay for something concatclessly? What about how the LED display on a calculator works? If you've ever been curious about how every day electronics work then there's no easier way of getting hands on experience. While you could always learn by reading through online articles or forums, physically experimenting with the tech can be both more engaging and enriching.
 
 If you've ever looked at a device and wished it had some extra funuctionality then why not just make your own version? Programming and circuit building is such a creative and versatile skill; the limit to the circuits you can make with Arduino is mostly your imagination and motivation to learn.
 
